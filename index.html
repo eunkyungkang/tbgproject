@@ -1,0 +1,140 @@
+<html>
+  <head>
+    <title>P.P. World</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&family=Roboto:wght@300;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <!-- need to put meta for site description and referencement -->
+  <body style="overflow-x: hidden">
+    <video id="background-video" autoplay loop muted>
+      <source
+        src="https://video.wixstatic.com/video/086177_1769f45364d042ee8b982239d4d43a14/1080p/mp4/file.mp4"
+        type="video/mp4"
+      />
+    </video>
+
+    <div id="menu">
+      <h4 onclick="smoothScroll(document.getElementById('cover'))">
+        P.P. World
+      </h4>
+      <h4 onclick="smoothScroll(document.getElementById('intro'))">Intro</h4>
+      <h4 onclick="smoothScroll(document.getElementById('gallery'))">
+        Gallery
+      </h4>
+      <h4 onclick="smoothScroll(document.getElementById('characters'))">
+        Characters
+      </h4>
+      <h4 onclick="smoothScroll(document.getElementById('community'))">
+        Community
+      </h4>
+    </div>
+    <div id="cover">
+      <h1>
+        P.P. <br />
+        World
+      </h1>
+    </div>
+    <div id="intro">
+      <table style="width: 70%; padding: 0px 0px 50px 0px;">
+        <tr>
+          <td style="width: 50%; padding: 50px 10px 50px 10px;">
+            <h2>Hello, Visitor!</h2>
+            <h3>Welcome to P.P. World!</h3>
+            <p>
+              P.P. World is the abbreviation of Post Pandemic World and refers
+              to a virtual world created by TBG, a group of three artists:
+              Eunkyung Kang, Juhee Shin and Yoonsun. TBG imagines how our lives
+              will change after the pandemic, creating P.P. World, a familiar,
+              but new world. TBG aims to aesthetically express an overflowing
+              imagination, to provide pleasure through 2D and 3D graphics
+              technologies, and to offer a metaverse world of the near future to
+              come.
+            </p>
+            <p>
+              TBG imagines how our lives will change after the pandemic,
+              creating P.P. World, a familiar, but new world. TBG aims to
+              aesthetically express an overflowing imagination, to provide
+              pleasure through 2D and 3D graphics technologies, and to offer a
+              metaverse world of the near future to come.
+            </p>
+          </td>
+          <td align="center" vertical-align="middle">
+            <img
+              src="https://static.wixstatic.com/media/086177_b822b1083d5046be93c72ed0ecd962d6~mv2.png/v1/fill/w_548,h_548,al_c,lg_1,q_85,enc_auto/Cyber.png"
+              border="0"
+              style="width: 300px; height: 300px"
+            />
+          </td>
+          <tr>
+        <td style="width: 50%">
+          <img src="https://static.wixstatic.com/media/086177_22b1ed93f81e49f7a21eed4593a1fdba~mv2.gif" border="0"
+              style="width: 300px; height: 300px">
+            </td>
+        <td>
+          <p>
+            In this world, we have three regions: Forest, Capital and Desert.
+           Each region represents not only the aspects of our society in the future but also the values we have to keep.
+          </p>  
+          <p>
+            <i>Forest</i> is the nature which has immense possibility that cannot be destroyed. 
+            <i>Capital</i> shows our prospects for the near future, mainly with developed biotechnology and neoliberalism.
+            <i>Desert</i> has all the trash we dump that it symbolizes the darkest side of the world, but one of our character, Saza, is born that it gives a message that the hope exists. 
+          </p>
+           </td></tr>
+        </tr>
+      </table>
+    </div>
+  
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade first-slide">
+    <div class="numbertext">1 / 3</div>
+    <img src="https://static.wixstatic.com/media/086177_65a14096920c4fab83ed803f384e2874~mv2.jpg/v1/fill/w_1960,h_1360,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/086177_65a14096920c4fab83ed803f384e2874~mv2.jpg" style="width:100%">
+    <div class="text">Desert</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://static.wixstatic.com/media/086177_4bc11e93866145329b9bb326669e788e~mv2.png/v1/fill/w_1000,h_694,al_c,q_90,enc_auto/086177_4bc11e93866145329b9bb326669e788e~mv2.png" style="width:100%">
+    <div class="text">Forest</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://static.wixstatic.com/media/086177_c17a1f73248d4ffdadb387af999c12dd~mv2.png/v1/fill/w_1960,h_1360,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/086177_c17a1f73248d4ffdadb387af999c12dd~mv2.png" style="width:100%">
+    <div class="text">Capital</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+  
+      <div id="gallery"><p>
+      Other contents continue...
+      </p>
+   </div>
+  
+    <div id="characters">Characters and make your own avatars</div>
+    <div id="community">community or IG</div>
+  </body>
+</html>
